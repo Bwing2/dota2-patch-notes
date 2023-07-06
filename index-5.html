@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 2 Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header-container">
+        <div class="header-icon-and-name">
+            <a href="https://www.dota2.com/"><img class="header-logo" src="./images/dota2logo.png" alt="dota2-logo" height="150px" width="150px"></a>
+            <h2 id="logo-text">Dota 2</h2>
+        </div>
+
+            <h1>Game</h1>
+            <h1>Heros</h1>
+            <h1>News</h1>
+            <h1>Esports</h1>
+            <h1>Login</h1>    
+        </div>
+    </div>
+    
+    <div class="update-container">
+        <div class="update-number-text">
+            <h1>Gameplay Update</h1>
+        </div>
+        <div class="update-number">
+            <h1>7.33e</h1>
+        </div>
+    </div>
+    
+    <div class="patch-notes-container">
+        <div class="patch-notes-background">
+            <div id="general-updates" class="patch-notes-heading">
+                <h2>General Updates</h2>
+            </div>
+
+            <div class="patch-notes-info">
+                <ul>
+                    <li>First Bounty Rune spawn have been removed if there's a Pudge in the game.</li>
+                    <li>Stacking camps now gives extra gold to carries and subtracts it from supports who stacked it.</li>
+                    <li>Universal stat gain reduced from 0.7 to 0.55.</li>
+                </ul>
+            </div>
+
+            <div id="itemiupdates" class="patch-notes-heading">
+                <h2>Item Updates</h2>
+            </div>
+
+            <div class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/blood_grenade.png" alt="blood_grenade" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Blood Grenade</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Health Cost changed from 75 to 100</li>
+                </ul>
+
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/boots_of_bearing.png" alt="boots_of_bearing" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Boots of Bearing</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Now earrapes allies on use</li>
+                </ul>
+
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/ring_of_health.png" alt="ring_of_health" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Ring of Health</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Health Regen bonus decreased from 4.5 to 4</li>
+                </ul>
+
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/vanguard.png" alt="vanguard" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Vanguard</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Health Regen bonus decreased from 4.5 to 4</li>
+                    <li>Damage Block decreased from 50/25 to 45/20 (melee/ranged)</li>
+                </ul>
+            </div>
+
+            <div id="neutral-item-updates" class="patch-notes-heading">
+                <h2>Neutral Item Updates</h2>
+            </div>
+
+            <div class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/philosophers_stone.png" alt="philosophers_stone" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Philosophers Stone</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>GPM bonus decreased from 75 to 50</li>
+                    <li>Supports stay free</li>
+                </ul>
+            
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/defiant_shell.png" alt="defiant_shell" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Defiant Shell</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Removed this item lets be real no one picking this</li>
+                </ul>
+                
+                <div class="image-and-name-container">
+                    <div class="item-image">
+                        <img src="./images/stormcrafter.png" alt="stormcrafter" height="52px" width="72px">
+                    </div>
+                    <div class="item-textbox">
+                        <div class="item-name">
+                            <h2>Stormcrafter</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Removed Bottled Lightning passive</li>
+                    <li>Re-added Whirlwind passive</li>
+                </ul>
+            </div>
+            
+            <div id="hero-updates" class="patch-notes-heading">
+                <h2>Hero Updates</h2>
+            </div>
+
+            <div id="abaddon" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/abaddon.png" alt="abaddon" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Abaddon</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Honestly we don't know what to do with this guy but he CAN'T be a core for more than one patch</li>
+                    <li>Base Attack Speed decreased from 95 to 80</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/abaddon_aphotic_shield.png" alt="abaddon_aphotic_shield" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Aphotic Shield</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Burst Radius decreased from 675.0 to 600 units</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/abaddon_borrowed_time.png" alt="abaddon_borrowed_time" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Borrowed Time</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Cooldown increased from 70/60/50s to 75/65/55s</li>
+                                <li>My man is on borrowed carry time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 25 Talent -1 Curse of Avernus Attacks Required replaced with +200 Aphotic Shield Health</li>
+                </ul>
+            </div>
+
+            <div id="beast-master" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/beastmaster.png" alt="beastmaster" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Beast Master</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/beastmaster_wild_axes.png" alt="beastmaster_wild_axes" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Wild Axes</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Our bad guys axes are annoying when spammed</li>
+                                <li>Mana Cost increased from 50 to 60</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/beastmaster_primal_roar.png" alt="beastmaster_primal_roar" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Primal Roar</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Earrapes primary enemy target when used</li>
+                                <li>Secondary targets have their audio muted for the duration of the disable</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/beastmaster_drums_of_slom.png" alt="beastmaster_drums_of_slom" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Drums of Slom</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Banging the drums now requires you to play a minigame using the arrow keys to time correctly</li>
+                                <li>Min Interval of pulses increased from 0.4 to 0.5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 15 Talent Inner Beast Attack Speed increased from +10 to +15 </li>
+                    <li>Level 25 Talent Primal Roar Cooldown decreased from -30s to -40s</li>
+                </ul>
+            </div>
+
+            <div id="crystal-maiden" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/crystal_maiden.png" alt="crystal_maiden" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Crystal Maiden</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Get ready to buy all the mangos</li>
+                    <li>Base Mana Regen decreased from 0.5 to 0.1</li>
+                </ul>
+            </div>
+
+            <div id="dazzle" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/dazzle.png" alt="dazzle" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Dazzle</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Carry last patch support this patch as per tradition</li>
+                    <li>Base Damage decreased by 3 (Level 1 damage unchanged)</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/dazzle_shallow_grave.png" alt="dazzle_shallow_grave" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Shallow Grave</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Cooldown decreased from 36/30/24/18s to 32/28/22/16s</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/dazzle_shadow_wave.png" alt="dazzle_shadow_wave" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Shadow Wave</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Shadow Wave Bounce Distance increased from 475 to 500</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 15 Talent Poison Attack Range decreased from +350 to +250 </li>
+                </ul>
+            </div>
+
+            <div id="gyrocopter" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/gyrocopter.png" alt="gyrocopter" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Gyrocopter</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>No longer in the random hero pool for Steam User "N i c c"</li>
+                </ul>
+            </div>
+
+            <div id="io" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/yuumi.png" alt="yuumi" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name-update">
+                            <h2>Io</h2>
+                        </div>
+                        <div class="hero-rework-text">
+                            <h3>Hero Reworked</h3>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>We want to have an easy to get into hero you can play with your friends</li>
+                    <li>Overcharge unchanged</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/io_tether.png" alt="io_tether" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Tether</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Reworked Basic Ability</li>
+                                <li class="no-bullet-point">While Io is Tether attached, she is untargetable (except by turrets and inbound projectiles) and casts abilities from the Anchor's position, empowering them with additional effects. Io channels for 0.25 seconds, then dashes to the target allied champion and attaches to them upon arrival, designating them as her Anchor. The cooldown starts upon completing the channel. Tether can be recast after 0.5 seconds.</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/io_spirits.png" alt="io_spirits" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Spirits</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Reworked Basic Ability</li>
+                                <li class="no-bullet-point">Io fires an errant missile in the target direction that deals magic damage to the first enemy hit. If the target is a hero, they are also revealed and slowed by 20% for 1 second. Duration: 2/3/4/5s. Damage: 90/120/150/180 Cooldown: 6.5s. Mana Cost: 60/70/80/90.</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/io_relocate.png" alt="io_relocate" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Relocate</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Ultimate Ability Reworked</li>
+                                <li class="no-bullet-point">Channel for up to 3.5 seconds, launching 5 waves in the target direction. Allied heros hit by the waves are healed, with each heal instance beyond maximum health being converted into a shield that lasts for 1.5 seconds plus the remaining channel duration instead. Healing per Hit: 25/40/55 Cooldown: 120/110/100. Mana Cost 100.</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 10 Talent +15% Tether Enemy Move/Attack Slow replaced with +2 Mana Regen </li>
+                </ul>
+            </div>
+
+            <div id="magnus" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/magnus.png" alt="magnus" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Magnus</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/magnus_skewer.png" alt="magnus_skewer" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Skewer</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Skewer Radius increased from 145 to 175</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 10 Talent +0.5 Shockwave Slow Duration replaced with +150 Shockwave Cast Range</li>
+                    <li>Level 25 Talent Empower Damage/Cleave increased from +10 to +15%</li>
+                </ul>
+            </div>
+
+            <div id="natures-profit" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/furion.png" alt="furion" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name-update">
+                            <h2>Natures Profit</h2>
+                        </div>
+                        <div class="hero-rework-text">
+                            <h3>Hero Reworked</h3>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>We want to encourage all playstyles even if your teammates don't agree</li>
+                    <li>Sprout Ability removed</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/furion_proximity_chat.png" alt="furion_proximity_chat" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Proximity Chat</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>New Basic Ability</li>
+                                <li class="no-bullet-point">Now grants the ability to proximity chat with allies and enemies. Slows movement speed of enemies in range by 30%. Duration: 2/3/4/5s. Cast Range: 500/600/700/800. Cooldown: 60/45/30/25s. Mana Cost: 40/45/50/55.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/furion_teleportation.png" alt="furion_teleportation" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Teleportation</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Cooldown decreased from 65/55/45/35s to 60/50/40/30s</li>
+                                <li>If Nature's Prophet is killed within 5s of teleporting, gold/experience bounty is reduced by 25%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/furion_greed.png" alt="furion_greed" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Furion Greed</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>New Basic Ability</li>
+                                <li class="no-bullet-point">Increases gold earned when killing jungle camps, and decreases gold earned from killing lane minions. Max Bonus Gold +10/15/20/25 for jungle monsters, and -5/10/15/20 for lane minions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/furion_wrath_of_nature.png" alt="furion_wrath_of_nature" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Wrath of Nature</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Now also steals 25/50/100 gold for each enemy hero hit</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/furion_natures_call.png" alt="furion_natures_call" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Nature's Call</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Now Granted by Aghanim's Shard. Cooldown Reduced from 37/35/33/31s to 28s. Number of Treants increased from 2/3/4/5 to 6.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 10 Talent -8s Nature's Call Cooldown replaced with +20 Attack Speed</li>
+                    <li>Level 15 Talent +5 Treants Spawned replaced with +50 Wrath of Nature Gold per enemy hit</li>
+                    <li>Level 20 Talent 100% Miss chance for Sprouted units replaced with 40% Evasion Granted for allies within Proximity Chat range</li>
+                    <li>Level 20 Talent Sprout Leashes replaced with Teleportation +5 Attack Damage Bonus per Stack +1.5 Armor Bonus per Stack</li>
+                    <li>Level 25 Talent 2.5x Treant HP/Damage replaced with Proximity Chat Cooldown reduced by 15s</li>
+                </ul>
+            </div>
+
+            <div id="night-stalker" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/night_stalker.png" alt="night_stalker" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Night Stalker</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Strength gain increased from 3 to 3.2</li>
+                    <li>Night time movement speed increased from 325 to 335</li>
+                </ul>
+            </div>
+
+            <div id="omniknight" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/omniknight.png" alt="omniknight" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Omniknight</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Base movement speed decreased from 315 to 310</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/omniknight_hammer_of_purity.png" alt="omniknight_hammer_of_purity" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Hammer of Purity</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Healing from Aghanim's Shard decreased from 30% to 20% of damage dealt by Hammer of Purity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 10 Talent Base Damage decreased from +50 to +40</li>
+                </ul>
+            </div>
+
+            <div id="pudge" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/pudge.png" alt="pudge" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Pudge</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Pudge now takes 5 damage per second after sitting still in trees for over 15 seconds</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/pudge_meat_hook.png" alt="pudge_meat_hook" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Meat Hook</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Mana Cost increased from 110 to 160</li>
+                                <li>Damage increased from 150/220/290/360 to 165/235/305/375</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/pudge_dismember.png" alt="pudge_dismember" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Dismember</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Cooldown increased from 30/25/20 to 40/30/20</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 15 Talent Spell Lifesteal increased from 8% to 10%</li>
+                </ul>
+            </div>
+
+            <div id="riki" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/riki.png" alt="riki" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Riki</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Removed from the game</li>
+                </ul>
+            </div>
+
+            <div id="timbersaw" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/timbersaw.png" alt="timbersaw" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Timbersaw</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Strength gain decreased from 3.2 to 3.0</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/timbersaw_reactive_armor.png" alt="timbersaw_reactive_armor" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Reactive Armor</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Armor Bonus per Stack decreased from 0.5/0.6/0.7/0.8 to 0.4/0.5/0.6/0.7</li>
+                                <li>Stack Duration decreased from 10/12/14/16 to 8/10/12/14</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/timbersaw_chakram.png" alt="timbersaw_chakram" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Chakram</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Pass Damage decreased from 110/155/200 to 95/140/180</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 10 Talent Health increased from 200 to 300</li>
+                </ul>
+            </div>
+
+            <div id="undying" class="patch-notes-info">
+                <div class="image-and-name-container">
+                    <div class="hero-image">
+                        <img src="./images/undying.png" alt="undying" height="72px" width="128px">
+                    </div>
+                    <div class="hero-textbox">
+                        <div class="hero-name">
+                            <h2>Undying</h2>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Strength gain decreased from 2.4 to 2.3</li>
+                    <li>Taunt Cooldown reduced by 30s</li>
+                </ul>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/undying_decay.png" alt="undying_decay" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Decay</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Cast Range decreased from 650 to 500</li>
+                                <li>Mana cost increased from 100 to 105</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <div class="hero-ability-image">
+                        <img src="./images/undying_tombstone.png" alt="undying_tombstone" height="60px" width="55px">
+                    </div>
+                    <div class="hero-ability-and-description-container">
+                        <div class="hero-ability-name">
+                            <h2>Tombstone</h2>
+                        </div>
+                        <div class="hero-ability-description">
+                            <ul class="resized-ul-li-for-description">
+                                <li>Zombies now moan when spawned</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="image-and-name-container">
+                    <h2>Talents</h2>
+                </div>
+                <ul class="hero-talents">
+                    <li>Level 20 Talent Tombstone on Death replaced with Zombies Moan 100% Louder</li>
+                </ul>
+            </div> 
+        </div>        
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-content">
+            <img class="footer-images" src="./images/Valve_logo.png" alt="valve_logo">
+            <img class="footer-images" src="./images/dota2logo.png" alt="dota2-logo">
+        </div>
+        <div class="footer-message">
+            <p>Totally real dota 2 website with definitely not bad code made by Brandon Wing. Something about copyright would go here maybe probably.</p>
+        </div>
+    </div>
+</body>
+</html>

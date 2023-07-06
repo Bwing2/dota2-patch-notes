@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif; 
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg);
+}
+
+h1 {
+    font-size: 400%;
+    margin: 0;
+} 
+
+h2 {
+    margin: 0;
+}
+
+li {
+    font-size: 150%;
+}
+
+ul {
+    max-width: 900px;
+    padding: 0px 20px 0px 65px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.header-container {
+    gap: 0px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-icon-and-name {
+    text-align: center;
+}
+
+#logo-text {
+    font-size: 3em;
+}
+
+.update-container {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    color: red;
+}
+
+.update-number-text {
+    width: 900px;
+    max-width: 900px;
+    margin-top: 20px;
+    font-size: x-small;
+}
+
+.update-number {
+    width: 900px;
+    max-width: 900px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    font-size: small;
+}
+
+.patch-notes-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.patch-notes-background {
+    width: 100%;
+    max-width: 902px;
+    font-size: smaller;
+}
+.patch-notes-heading {
+    padding: 10px 20px;
+    font-size: large;
+    text-transform: uppercase;
+    border: 1pxsolid black;
+    background: #833312;
+    background-image: linear-gradient(to right, rgba(163, 93, 31, 0.25) , rgba(84, 46, 3, 0.75));
+}
+
+.patch-notes-info {
+    max-width: 900px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(6, 5, 5, 0.25) , rgba(36, 46, 75, 0.75));
+}
+
+.image-and-name-container {
+    margin: 20px 20px 0px 20px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.item-image {
+    height: 52px;
+    width: 72px;
+    margin: 0px 16px 10px 0px;
+}
+
+.item-name {
+    padding: 10px;
+}
+
+.hero-image {
+    height: 77px;
+    width: 128px;
+}
+
+.hero-name {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-name-update {
+    display: flex;
+    padding-left: 20px;
+}
+
+.no-bullet-point {
+    list-style-type: none;
+}
+
+.hero-ability-image {
+    height: 60px;
+    width: 55px;
+    display: flex;
+}
+
+.hero-ability-and-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.hero-ability-name {
+    margin-left: 20px;
+    display: flex;
+    font-size: smaller;
+}
+
+.hero-ability-description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.resized-ul-li-for-description {
+    padding-left: 40px;
+    margin: 0;
+    font-size: small;
+}
+
+.hero-talents {
+    margin: 0px 20px 20px 20px;
+    padding: 0px 20px 0px 45px;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white
+}
+
+.footer-content {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-images {
+    max-height: 70px;
+}
+
+.footer-message {
+    max-width: 400px;
+    margin: auto;
+}
+
+@media (max-width: 1250px) {
+    .header-container, .update-container {
+    font-size: 70%;
+    }
+    
+    .header-logo {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-container, .update-container {
+        font-size: 50%;
+        flex-direction: column;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .update-number-text, .update-number {
+        width: auto;
+    }
+
+    #logo-text {
+        font-size: 3rem;
+    }
+
+    .header-logo {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header-container, .update-container {
+        font-size: 40%;
+        flex-direction: column;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .update-number-text, .update-number {
+        width: auto;
+    }
+
+    #logo-text {
+        font-size: 2.5rem;
+    }
+
+    .header-logo {
+        height: 120px;
+        width: 120px;
+    }
+}
